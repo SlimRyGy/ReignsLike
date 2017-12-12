@@ -31,7 +31,7 @@ public class AvatarManager : DualBehaviour
         m_avatarRequest.text = _dialogue;
     }
 
-    public void SetImageName(string imageIdName)
+    public void SetAvatarImageName(string imageIdName)
     {
 
     }

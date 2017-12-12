@@ -66,7 +66,7 @@ public abstract class ReignsUI : MonoBehaviour, ReignsUserInterface
     public abstract void SetScoreTo(int score);
     public abstract void SetYearOfReigns(int years);
     public abstract void SetDialogue(string dialogue);
-    public abstract void SetImageName(string imageIdName);
+    public abstract void SetAvatarImageName(string imageIdName);
     public abstract void SetAvatarImage(Sprite texture);
     public abstract void SetBonusStatus(int index, bool isComplete);
     public abstract void SetBonusStatus(string questId, bool isComplete);
