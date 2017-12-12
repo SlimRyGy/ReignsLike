@@ -12,7 +12,7 @@ public interface ReignsUserInterface
 
     void SetDialogue(string dialogue);
     void SetAvatarName(string dialogue);
-    void SetImageName(string imageIdName);
+    void SetAvatarImageName(string imageIdName);
     void SetAvatarImage(Sprite texture);
 
 
