@@ -36,7 +36,6 @@ public class MainGame : DualBehaviour
         else
         {
             SetQuestion(m_save.currentPerso, m_save.currentQuestion);
-            
             SetAmounts(m_save.fillAmounts);
         }
     }
@@ -84,12 +83,7 @@ public class MainGame : DualBehaviour
         foreach (Effect effect in effects)
             m_indicators[effect.indicator].fillAmount += effect.amount;
 
-        List<float> newAmounts = new List<float>();
-
-        foreach (Image i in m_indicators)
-            newAmounts.Add(i.fillAmount);
-
-        m_save.fillAmounts = newAmounts;
+        SaveAmounts();
     }
 
     public void SetAmounts(List<float> amounts)
@@ -97,6 +91,18 @@ public class MainGame : DualBehaviour
         int i = 0;
         foreach (float amount in amounts)
             m_indicators[i++].fillAmount = amount;
+
+        SaveAmounts();
+    }
+
+    public void SaveAmounts()
+    {
+        List<float> newAmounts = new List<float>();
+
+        foreach (Image i in m_indicators)
+            newAmounts.Add(i.fillAmount);
+
+        m_save.fillAmounts = newAmounts;
     }
 
     #endregion
