@@ -30,13 +30,10 @@ public class MainGame : DualBehaviour
     {
         m_r = new System.Random();
 
-        
+
 
         if (m_save.currentPerso == null || m_save.currentQuestion == null)
-        {
-            NextQuestion();
-            SetAmounts(m_save.defaultFillAmounts);
-        }
+            Reset();
         else
         {
             SetQuestion(m_save.currentPerso, m_save.currentQuestion);
@@ -118,6 +115,12 @@ public class MainGame : DualBehaviour
             newAmounts.Add(i.fillAmount);
 
         m_save.fillAmounts = newAmounts;
+    }
+
+    public void Reset()
+    {
+        NextQuestion();
+        SetAmounts(m_save.defaultFillAmounts);
     }
 
     #endregion
