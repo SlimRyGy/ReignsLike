@@ -19,7 +19,7 @@ public class AdapteurReignsV1 : ReignsUI
 
     }
 
-    public override void SetImageName(string imageIdName)
+    public override void SetAvatarImageName(string imageIdName)
     {
 
     }
