@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a59ee9b2d717fe42a8d3400d7d42706, type: 3}
+  m_Name: Ana
+  m_EditorClassIdentifier: 
+  image: {fileID: 21300000, guid: 9e5311583bbd8de409999fd84efd3b15, type: 3}
+  name: Ana
+  questions:
+  - question: 'Suis-je un support ? '
+    answerYes: Yes
+    answerNo: No
+    effects_yes:
+    - indicator: 3
+      amount: 0.1
+    effects_no:
+    - indicator: 3
+      amount: -0.1
+  - question: Mes tirs soignent
+    answerYes: Yes
+    answerNo: No
+    effects_yes:
+    - indicator: 3
+      amount: 0.1
+    effects_no:
+    - indicator: 3
+      amount: -0.1
+  - question: je suis la mere de mercy
+    answerYes: Yes
+    answerNo: No
+    effects_yes:
+    - indicator: 3
+      amount: -0.2
+    effects_no:
+    - indicator: 3
+      amount: 0.2
+  - question: Dans un de mes emotes je bois du cafe
+    answerYes: Yes
+    answerNo: No
+    effects_yes:
+    - indicator: 3
+      amount: -0.1
+    effects_no:
+    - indicator: 3
+      amount: 0.1
+  - question: 'je peu boost '
+    answerYes: Yes
+    answerNo: No
+    effects_yes:
+    - indicator: 3
+      amount: 0.1
+    effects_no:
+    - indicator: 3
+      amount: -0.1
