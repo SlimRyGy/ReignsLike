@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Name: MainSave
   m_EditorClassIdentifier: 
   fillAmounts:
-  - 0
-  - 0
-  - 0
-  - 0
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
   currentPerso: {fileID: 0}
   currentQuestion:
     question: 
