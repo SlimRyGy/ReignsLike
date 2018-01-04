@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -881,6 +881,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_transform: {fileID: 0}
+<<<<<<< HEAD
   m_save: {fileID: 11400000, guid: 5b7cf72111bb81f46b8ce21a1c86fc7d, type: 2}
   m_indicators:
   - {fileID: 512155009}
@@ -892,6 +893,15 @@ MonoBehaviour:
   m_question: {fileID: 335771798}
   m_answerYes: {fileID: 2020574268}
   m_answerNo: {fileID: 519290592}
+=======
+  m_save: {fileID: 0}
+  m_indicators: []
+  m_avatar: {fileID: 0}
+  m_name: {fileID: 0}
+  m_question: {fileID: 0}
+  m_answerYes: {fileID: 0}
+  m_answerNo: {fileID: 0}
+>>>>>>> 238345351c8aae1a5b6588d979aec82fcb6f0537
 --- !u!4 &778069846
 Transform:
   m_ObjectHideFlags: 0
