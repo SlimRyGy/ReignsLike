@@ -6,6 +6,9 @@ public class Perso : ScriptableObject
 {
     #region Public Members
 
+    public Sprite image;
+    public string name;
+
     [SerializeField]
     public List<Questions> questions = new List<Questions>();
 
