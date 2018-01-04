@@ -11,6 +11,51 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a59ee9b2d717fe42a8d3400d7d42706, type: 3}
   m_Name: Genji
   m_EditorClassIdentifier: 
-  image: {fileID: 0}
-  name: 
-  questions: []
+  image: {fileID: 21300000, guid: a01c604d8e166ad42a9278bb2bdfc1db, type: 3}
+  name: Genji
+  questions:
+  - question: Suis-je un dps ?
+    answerYes: Yes
+    answerNo: No
+    effects_yes:
+    - indicator: 0
+      amount: 0.1
+    effects_no:
+    - indicator: 0
+      amount: -0.1
+  - question: J'ai un frere
+    answerYes: Yes
+    answerNo: No
+    effects_yes:
+    - indicator: 0
+      amount: 0.1
+    effects_no:
+    - indicator: 0
+      amount: -0.1
+  - question: je me sert d'un arc
+    answerYes: Yes
+    answerNo: No
+    effects_yes:
+    - indicator: 0
+      amount: -0.1
+    effects_no:
+    - indicator: 0
+      amount: 0.1
+  - question: mei est ma grand mere
+    answerYes: Yes
+    answerNo: No
+    effects_yes:
+    - indicator: 0
+      amount: -0.5
+    effects_no:
+    - indicator: 0
+      amount: 0.1
+  - question: sake ?
+    answerYes: Yes
+    answerNo: No
+    effects_yes:
+    - indicator: 0
+      amount: 0.1
+    effects_no:
+    - indicator: 0
+      amount: -0.1

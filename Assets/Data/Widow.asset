@@ -11,6 +11,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a59ee9b2d717fe42a8d3400d7d42706, type: 3}
   m_Name: Widow
   m_EditorClassIdentifier: 
-  image: {fileID: 0}
-  name: 
-  questions: []
+  image: {fileID: 21300000, guid: 3422dd1a39fb0234da13a853ef18d085, type: 3}
+  name: Widow
+  questions:
+  - question: 'Suis-je Belge ? '
+    answerYes: Yes
+    answerNo: No
+    effects_yes:
+    - indicator: 0
+      amount: -0.1
+    - indicator: 1
+      amount: -0.1
+    - indicator: 2
+      amount: -0.1
+    - indicator: 3
+      amount: -0.1
+    effects_no:
+    - indicator: 1
+      amount: 0.1

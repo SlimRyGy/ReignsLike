@@ -11,6 +11,49 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a59ee9b2d717fe42a8d3400d7d42706, type: 3}
   m_Name: Mei
   m_EditorClassIdentifier: 
-  image: {fileID: 0}
-  name: 
-  questions: []
+  image: {fileID: 21300000, guid: 88ba28619087d5046bea502fa9821810, type: 3}
+  name: Mei
+  questions:
+  - question: zarya peut sortir de mon ulti
+    answerYes: Yes
+    answerNo: No
+    effects_yes:
+    - indicator: 1
+      amount: 0.1
+    effects_no:
+    - indicator: 1
+      amount: -0.1
+  - question: Suis-je un support ?
+    answerYes: Yes
+    answerNo: No
+    effects_yes:
+    - indicator: 1
+      amount: -0.1
+    - indicator: 3
+      amount: -0.1
+    effects_no:
+    - indicator: 1
+      amount: 0.1
+  - question: plusieur mode me sont dedier
+    answerYes: Yes
+    answerNo: No
+    effects_yes:
+    - indicator: 1
+      amount: 0.1
+    effects_no:
+    - indicator: 1
+      amount: -0.1
+  - question: freeze dont move
+    answerYes: Yes
+    answerNo: No
+    effects_yes: []
+    effects_no: []
+  - question: 'satan c''est toi ? '
+    answerYes: Yes
+    answerNo: No
+    effects_yes:
+    - indicator: 1
+      amount: -0.1
+    effects_no:
+    - indicator: 1
+      amount: -0.1
