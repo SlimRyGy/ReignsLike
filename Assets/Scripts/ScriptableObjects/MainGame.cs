@@ -45,7 +45,31 @@ public class MainGame : DualBehaviour
     public void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
+        {
+
+            if (Application.platform == RuntimePlatform.Android)
+            {
+                Debug.Log("Android");
+
+                Debug.Log("Confirmation required");
+
+                if (Time.realtimeSinceStartup - lastClicked > 1.5f)
+                {
+
+                    Debug.Log("ShowToaster");
+
+                    lastClicked = Time.realtimeSinceStartup;
+
+                    ShowToast toast = new ShowToast();
+
+                    toast.showToastOnUiThread("Press again to exit.");
+
+                    return;
+                }
+            }
+
             Application.Quit();
+        }
     }
 
     #endregion
