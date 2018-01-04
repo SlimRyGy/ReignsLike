@@ -23,3 +23,39 @@ MonoBehaviour:
     effects_no:
     - indicator: 2
       amount: 0.1
+  - question: je possede un emote legendaire
+    answerYes: Yes
+    answerNo: No
+    effects_yes:
+    - indicator: 2
+      amount: 0.1
+    effects_no:
+    - indicator: 2
+      amount: -0.1
+  - question: "j'ai une c\xE9l\xE9bration avec de la vodka"
+    answerYes: Yes
+    answerNo: No
+    effects_yes:
+    - indicator: 2
+      amount: -0.2
+    effects_no:
+    - indicator: 2
+      amount: 0.2
+  - question: je peut faire du rocket jump
+    answerYes: Yes
+    answerNo: No
+    effects_yes:
+    - indicator: 2
+      amount: 0.1
+    effects_no:
+    - indicator: 2
+      amount: -0.1
+  - question: Vladimir Puttin est mon pere
+    answerYes: Yes
+    answerNo: No
+    effects_yes:
+    - indicator: 2
+      amount: -0.1
+    effects_no:
+    - indicator: 2
+      amount: 0.1

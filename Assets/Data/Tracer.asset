@@ -20,4 +20,44 @@ MonoBehaviour:
     effects_yes:
     - indicator: 0
       amount: 0.1
-    effects_no: []
+    effects_no:
+    - indicator: 0
+      amount: -0.1
+  - question: "mon coeur artificiel a \xE9t\xE9 concu par winston"
+    answerYes: Yes
+    answerNo: No
+    effects_yes:
+    - indicator: 0
+      amount: 0.1
+    - indicator: 2
+      amount: 0.1
+    effects_no:
+    - indicator: 0
+      amount: -0.1
+  - question: ana m'a tirer en plein coeur
+    answerYes: Yes
+    answerNo: No
+    effects_yes:
+    - indicator: 0
+      amount: -0.1
+    effects_no:
+    - indicator: 0
+      amount: 0.1
+  - question: un des 4 icone ci dessous est le mien
+    answerYes: Yes
+    answerNo: No
+    effects_yes:
+    - indicator: 0
+      amount: -0.1
+    effects_no:
+    - indicator: 0
+      amount: 0.1
+  - question: je suis lesbienne
+    answerYes: Yes
+    answerNo: No
+    effects_yes:
+    - indicator: 0
+      amount: 0.2
+    effects_no:
+    - indicator: 0
+      amount: -0.2

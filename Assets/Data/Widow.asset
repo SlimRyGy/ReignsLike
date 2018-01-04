@@ -18,13 +18,43 @@ MonoBehaviour:
     answerYes: Yes
     answerNo: No
     effects_yes:
-    - indicator: 0
-      amount: -0.1
     - indicator: 1
       amount: -0.1
-    - indicator: 2
+    effects_no:
+    - indicator: 1
+      amount: 0.1
+  - question: Je suis une personne gentille a la base
+    answerYes: Yes
+    answerNo: No
+    effects_yes:
+    - indicator: 1
+      amount: 0.1
+    effects_no:
+    - indicator: 1
       amount: -0.1
-    - indicator: 3
+  - question: "je poss\xE8de un wall hack"
+    answerYes: Yes
+    answerNo: No
+    effects_yes:
+    - indicator: 1
+      amount: 0.1
+    effects_no:
+    - indicator: 1
+      amount: -0.1
+  - question: "j'ai une fourmis tatou\xE9e"
+    answerYes: Yes
+    answerNo: No
+    effects_yes:
+    - indicator: 1
+      amount: -0.1
+    effects_no:
+    - indicator: 1
+      amount: 0.1
+  - question: "ma peau est naturellement bleut\xE9e"
+    answerYes: Yes
+    answerNo: No
+    effects_yes:
+    - indicator: 1
       amount: -0.1
     effects_no:
     - indicator: 1

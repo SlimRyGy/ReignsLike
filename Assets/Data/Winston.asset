@@ -19,7 +19,43 @@ MonoBehaviour:
     answerNo: No
     effects_yes:
     - indicator: 3
+      amount: -0.1
+    effects_no:
+    - indicator: 3
+      amount: 0.1
+  - question: "la personne qui m'a \xE9lev\xE9e est un scientifique"
+    answerYes: Yes
+    answerNo: No
+    effects_yes:
+    - indicator: 3
       amount: 0.1
     effects_no:
     - indicator: 3
       amount: -0.1
+  - question: j'ai grandi en afrique
+    answerYes: Yes
+    answerNo: No
+    effects_yes:
+    - indicator: 3
+      amount: -0.3
+    effects_no:
+    - indicator: 3
+      amount: 0.1
+  - question: mon dome peut counter l'ulti de dva
+    answerYes: Yes
+    answerNo: No
+    effects_yes:
+    - indicator: 3
+      amount: 0.1
+    effects_no:
+    - indicator: 3
+      amount: -0.1
+  - question: je suis le counter de reaper
+    answerYes: Yes
+    answerNo: No
+    effects_yes:
+    - indicator: 3
+      amount: -0.1
+    effects_no:
+    - indicator: 3
+      amount: 0.1

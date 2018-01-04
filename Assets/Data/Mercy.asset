@@ -25,3 +25,45 @@ MonoBehaviour:
     effects_no:
     - indicator: 3
       amount: 0.1
+  - question: Mon prenom est angela
+    answerYes: Yes
+    answerNo: No
+    effects_yes:
+    - indicator: 3
+      amount: 0.1
+    effects_no:
+    - indicator: 3
+      amount: -0.1
+  - question: Je suis Suedoise
+    answerYes: Yes
+    answerNo: No
+    effects_yes:
+    - indicator: 2
+      amount: -0.1
+    - indicator: 3
+      amount: -0.1
+    effects_no:
+    - indicator: 3
+      amount: 0.1
+  - question: mon ulti permet de rez plusieur personnes
+    answerYes: Yes
+    answerNo: No
+    effects_yes:
+    - indicator: 2
+      amount: -0.1
+    - indicator: 3
+      amount: -0.1
+    effects_no:
+    - indicator: 3
+      amount: 0.1
+  - question: "je suis un des grand m\xE9chant de l'hstoire"
+    answerYes: Yes
+    answerNo: No
+    effects_yes:
+    - indicator: 2
+      amount: -0.1
+    - indicator: 3
+      amount: -0.1
+    effects_no:
+    - indicator: 3
+      amount: 0.1
