@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using System.Linq;
 
 public class MainGame : DualBehaviour
 {
@@ -31,14 +30,23 @@ public class MainGame : DualBehaviour
     {
         m_r = new System.Random();
 
-        if (m_save.currentPerso == null) // New game
+        SetAmounts(m_save.fillAmounts);
+
+        if (m_save.currentPerso == null || m_save.currentQuestion == null)
             NextQuestion();
         else
-        {
             SetQuestion(m_save.currentPerso, m_save.currentQuestion);
-            SetAmounts(m_save.fillAmounts);
-        }
     }
+
+    public void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+            Application.Quit();
+    }
+
+    #endregion
+
+    #region Class Methods
 
     public void AnswerYes()
     {
@@ -104,10 +112,6 @@ public class MainGame : DualBehaviour
 
         m_save.fillAmounts = newAmounts;
     }
-
-    #endregion
-
-    #region Class Methods
 
     #endregion
 

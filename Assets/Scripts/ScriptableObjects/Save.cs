@@ -7,7 +7,7 @@ public class Save : ScriptableObject
 {
     #region Public Members
 
-    public List<float> fillAmounts = new List<float>() { 0, 0, 0, 0 };
+    public List<float> fillAmounts = new List<float>() { .5f, .5f, .5f, .5f };
 
     public Perso currentPerso;
     public Questions currentQuestion;
