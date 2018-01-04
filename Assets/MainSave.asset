@@ -18,9 +18,9 @@ MonoBehaviour:
   - 0.5
   currentPerso: {fileID: 0}
   currentQuestion:
-    question: 
-    answerYes: 
-    answerNo: 
+    question: freeze dont move
+    answerYes: Yes
+    answerNo: No
     effects_yes: []
     effects_no: []
   persos:
