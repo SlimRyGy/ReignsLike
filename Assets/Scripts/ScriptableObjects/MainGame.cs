@@ -153,6 +153,8 @@ public class MainGame : DualBehaviour
 
         NextQuestion();
         SetAmounts(m_save.defaultFillAmounts);
+
+        GetComponent<WinLoose>().RestartGame();
     }
 
     #endregion
