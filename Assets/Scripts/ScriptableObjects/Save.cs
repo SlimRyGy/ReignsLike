@@ -1,13 +1,14 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 [CreateAssetMenu]
 public class Save : ScriptableObject
 {
     #region Public Members
 
-    public List<float> fillAmounts = new List<float>() { .5f, .5f, .5f, .5f };
+    public List<float> defaultFillAmounts = new List<float>() { .5f, .5f, .5f, .5f };
+
+    public List<float> fillAmounts = new List<float>();
 
     public Perso currentPerso;
     public Questions currentQuestion;
