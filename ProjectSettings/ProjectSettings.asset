@@ -217,7 +217,7 @@ PlayerSettings:
   AndroidTargetDevice: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: C:/Users/student102/Documents/ReignsLike/Keystore/dede.keystore
+  AndroidKeystoreName: C:/Users/student101/Documents/projet/ReignsLike/Keystore/dede.keystore
   AndroidKeyaliasName: overreign
   AndroidTVCompatibility: 1
   AndroidIsGame: 1
