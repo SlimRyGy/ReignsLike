@@ -1,4 +1,6 @@
 ﻿using System.Collections.Generic;
+using System.IO;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -7,7 +9,9 @@ public class Save : ScriptableObject
 {
     #region Public Members
 
-    public List<float> fillAmounts = new List<float>() { .5f, .5f, .5f, .5f };
+    public List<float> defaultFillAmounts = new List<float>() { .5f, .5f, .5f, .5f };
+
+    public List<float> fillAmounts = new List<float>();
 
     public Perso currentPerso;
     public Questions currentQuestion;
