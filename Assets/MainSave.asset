@@ -12,29 +12,15 @@ MonoBehaviour:
   m_Name: MainSave
   m_EditorClassIdentifier: 
   fillAmounts:
-  - 0.10000002
-  - 0.4
-  - 0.3
-  - 0.20000002
-  currentPerso: {fileID: 11400000, guid: 95519e81651d04e489cfb811c9bf537c, type: 2}
+  - 0
+  - 0
+  - 0
+  - 0
+  currentPerso: {fileID: 0}
   currentQuestion:
-    question: Suis-je un Tank ?
-    answerYes: Yes
-    answerNo: No
-    effects_yes:
-    - indicator: 2
-      amount: -0.1
-    - indicator: 3
-      amount: -0.1
-    effects_no:
-    - indicator: 3
-      amount: 0.1
-  persos:
-  - {fileID: 11400000, guid: 08af1dc71ee421d4c95dcd08e5de568f, type: 2}
-  - {fileID: 11400000, guid: e1ca16c1acaee2046942497e94b847ef, type: 2}
-  - {fileID: 11400000, guid: 70c03bca1b025d24186e72f640cb2728, type: 2}
-  - {fileID: 11400000, guid: 95519e81651d04e489cfb811c9bf537c, type: 2}
-  - {fileID: 11400000, guid: ef2688c74f4395d4db9269c9ae834998, type: 2}
-  - {fileID: 11400000, guid: c793d4866c6d2e9438cf4350cb225d59, type: 2}
-  - {fileID: 11400000, guid: 1c4a5192c00e9304fb96e685bb8f9115, type: 2}
-  - {fileID: 11400000, guid: c34ab0434b98f9646ad361cfdeb5c600, type: 2}
+    question: 
+    answerYes: 
+    answerNo: 
+    effects_yes: []
+    effects_no: []
+  persos: []
