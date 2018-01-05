@@ -68,7 +68,20 @@ public class MainGame : DualBehaviour
                 }
             }
 
+#if UNITY_ANDROID
+            // Get the unity player activity
+            AndroidJavaObject activity =
+               new AndroidJavaClass("com.unity3d.player.UnityPlayer")
+               .GetStatic<AndroidJavaObject>("currentActivity");
+
+            // call activity's boolean moveTaskToBack(boolean nonRoot) function
+            // documentation: http://developer.android.com/reference/android/app/Activity.html#moveTaskToBack(boolean)
+            activity.Call<bool>("moveTaskToBack", true);
+
+#else
+
             Application.Quit();
+#endif
         }
     }
 
